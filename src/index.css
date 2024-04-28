@@ -1,0 +1,46 @@
+body {
+  background-image: url('https://png.pngtree.com/background/20220726/original/pngtree-background-with-dog-paw-print-and-bone-picture-image_1790277.jpg');
+  background-color: rgb(26, 73, 80);
+  padding-top: 60px;
+}
+
+.container {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#buttonRefresh,
+.dog--button {
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+}
+
+button {
+  border-radius: 15px;
+  border: 3px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #bfb8d8;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #3997bd;
+}
+
+p {
+  background-color: lightgrey;
+  border: 10px solid rgb(93, 111, 138);
+  padding: 10px;
+  width: 660px;
+  margin: 0 auto;
+}
